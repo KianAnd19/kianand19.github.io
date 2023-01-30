@@ -1,0 +1,166 @@
+body{
+    background-color:white;
+        height: 1000vh;
+}
+
+
+h1{
+
+}
+
+h2{
+    color: #A37E49;
+    font-size: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+h3 {
+    color: #A37E49;
+    line-height: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+h4{
+    color: #A37E49;
+    line-height: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+.container1{
+    width: 100%;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/gray-sofa-white-living-room-interior-with-copy-space-3d-rendering_43614-802.jpg?w=2000&t=st=1675092790~exp=1675093390~hmac=3937014b670dd909c99e71beb0534d5e411f8e8126899059b54ed17552f59938);
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    width: 100%;
+    height: 700px;
+    background-color: #f5ebe0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container3{
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/living-room_1048-2485.jpg?w=2000&t=st=1675093223~exp=1675093823~hmac=aa2fdbb9d8f045bb2b8f1add13a245ea294100c2304ddb5d49531af94fe88911);
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    width: 100%;
+    height: 700px;
+    background-color: #f5ebe0;
+
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+}
+
+.line {
+    height: 2px;
+    width: 500px;
+    outline: 0.5px solid #A37E49;
+    outline-offset: -50px;
+}
+
+.square {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    line-height: 35px;
+    outline: 1px solid #A37E49;
+    outline-offset: -7px;
+    text-align: center;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* inspired form gumroad website */
+.button {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+
+/* navbar */
+
+
+header {
+    width: 100%;
+    height: 50px;
+    border-bottom: solid #A37E49;
+    background-color: white;
+
+    /*
+    border-radius: 0px;
+    background: #ffffff;   
+    box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+    */
+
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+}
+
+span {
+    margin-left: 50px;
+}
+
+.thing {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    border-color: #ffffff;
+background: #ffffff;
+box-shadow:  5px 5px 10px #d9d9d9,
+             -5px -5px 10px #ffffff;
+}
